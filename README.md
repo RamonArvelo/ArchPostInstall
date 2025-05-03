@@ -136,7 +136,24 @@ sudo mkinitcpio -P
 ```
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
+```
+Bash
+Oh-My-Bash
 
+via curl
+
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+
+via wget
+
+bash -c "$(wget https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh -O -)"
+
+THEMES: https://github.com/ohmybash/oh-my-bash/blob/master/themes/THEMES.md
+
+nano ~/.bashrc
+
+OSH_THEME="powerline"
+```
 
 
 
