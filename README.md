@@ -155,7 +155,10 @@ nano ~/.bashrc
 OSH_THEME="powerline"
 ```
 
+```
+sudo pacman -S   yt-dlp --noconfirm
 
+```
 
 
 
